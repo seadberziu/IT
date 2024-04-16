@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*kollorat rgb(8, 102, 255)*/
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*mos e luj*/
+  transform: translate(-50%, -50%);
+  padding: 0px 100px;
+}
+.fb{
+  color: rgb(8, 102, 255);
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  gap: 100px;
+
+  /* width: 100%; */
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  /* justify-content: center; */
+  width: 500px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+hr{
+  width: 100%;
+}
+body {
+  background-color: rgb(240, 242, 245);
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 300px;
+  border: 2px;
+  margin-bottom: 38px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 10px 10px rgb(0 0 0 / 6%);
+  
+  background-color: white;
+}
+.login-container input{
+  padding: 5px 10px;
+  /* text-indent: 30px; */
+}
+.text{
+  /* width: 300px; */
+  font-size: 28px;
+}
+.button {
+  background-color: rgb(8, 102, 255);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  width: 290px;
+  margin-top: 5px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.fgp{
+  margin-bottom: 9px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgb(8, 102, 255);
+}
+.createnewaccount {
+  background-color: rgb(66, 183, 42);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 180px;
+  height: 40px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+input{
+  padding: 10px;
+  width: 270px;
+  height: 30px;
+  border-radius: 7px;
+  border-width: 1px;
+  /* kollori*/
+  outline-color:rgb(8, 102, 255);
+  outline-width: 1px;
+  border-color: rgb(230, 224, 224);
+}
+.x{
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+::placeholder{
+  color: rgb(166, 165, 165);
+}
